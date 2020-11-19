@@ -14,6 +14,13 @@ class ChildComponent extends React.Component {
 }
 
 class App extends React.Component {
+  // constructor(props){
+  //   super(props);
+  //   this.state = {
+  //     something: ""
+  //   }
+  // }
+  
   state = {
     status: true,
     show: true,
@@ -28,6 +35,9 @@ class App extends React.Component {
   }
 
   render(){
+    //sample prop display on class component
+    // console.log(this.props);
+
     //regular method or functions
     console.log(variables.students);
 
