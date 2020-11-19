@@ -2,6 +2,8 @@ import React, { Component } from 'react'
 import CardList from "./components/CardList/CardList";
 import SearchBox from "./components/SearchBox/SearchBox";
 
+import './App.css';
+
 class App extends Component {
     state = {
         monsters: [],

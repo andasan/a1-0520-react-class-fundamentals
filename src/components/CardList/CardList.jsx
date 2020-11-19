@@ -3,7 +3,7 @@ import Card from '../Card/Card';
 import './CardList.css';
 
 const CardList = ({ data }) => {
-    console.log(data);
+    // console.log(data);
     return (
         <div className="card-list">
             {
